@@ -17,7 +17,11 @@ import { LoginComponent } from './pages/login/login.component';
     HomeComponent,
     LoginComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, FormsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
